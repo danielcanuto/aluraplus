@@ -175,3 +175,46 @@ body {
     color: var(--texto-secundario);
     margin: 0 5em;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        background-image: none;
+        display: block;
+        text-align: center;
+    }
+
+    .container__imagem {
+        width: 50vw ;
+    }
+
+    .container__box {
+        margin: 2em 2em;
+
+    }
+    .secondary {
+        margin: 0;
+        text-align: center;
+    }
+    .secondary__img {
+        text-align: center;
+        width: 50vw;
+    }
+
+    .dispositivo_lista {
+        display: block;
+    }
+
+    .footer__lista {
+        display: block;
+       
+       
+    }
+    .dispositivos__title {
+        margin: 5px;
+    }
+
+    .footer__lista a {
+        padding: 5px;
+        margin: 0;
+    }
+}
